@@ -1,16 +1,10 @@
 {
-	"tasks": [
-		{
-			"id": 1,
-			"text": "Appointment",
-			"day": "01/02/2021",
-			"reminder": true
-		},
-		{
-			"id": 2,
-			"text": "Pick up dinner",
-			"day": "01/03/2021",
-			"reminder": false
-		}
-	]
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Appointment",
+      "day": "01/02/2021",
+      "reminder": true
+    }
+  ]
 }

@@ -24,7 +24,11 @@ function App() {
 	};
 
 	// * Delete task
-	const deleteTask = (id) => {
+	const deleteTask = async (id) => {
+		await fetch(`http://localhost:5000/tasks/${id}`, {
+			method : 'DELETE'
+		});
+
 		// filters out from the array if the id matches
 		setTasks(tasks.filter((task) => task.id !== id));
 		console.log('delete', id);
