@@ -32,10 +32,17 @@ function App() {
 		console.log('reminder');
 	};
 
+	// * Add task
+	const addTask = (task) => {
+		const id = tasks.length + 1;
+		const newTask = { id, ...task };
+		setTasks([ ...tasks, newTask ]);
+	};
+
 	return (
 		<div className='container'>
 			<Header title='Task Tracker' />
-			<AddTask />
+			<AddTask onAdd={addTask} />
 			{tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} /> : 'No more tasks'}
 		</div>
 	);
