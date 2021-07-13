@@ -5,20 +5,7 @@ import { useState } from 'react';
 
 function App() {
 	const [ showAddTask, setShowAddTask ] = useState(false);
-	const [ tasks, setTasks ] = useState([
-		{
-			id       : 1,
-			text     : 'Appointment',
-			day      : '01/02/2021',
-			reminder : true
-		},
-		{
-			id       : 2,
-			text     : 'Pick up dinner',
-			day      : '01/03/2021',
-			reminder : false
-		}
-	]);
+	const [ tasks, setTasks ] = useState([]);
 
 	// * Delete task
 	const deleteTask = (id) => {
