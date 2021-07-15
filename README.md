@@ -1,6 +1,6 @@
 # Task Tracker
 
-This is a quick project to learn how to create a front-end app with React. 
+This is a quick "Hello World" project to learn how to create a front-end app with React. 
 
 The "back-end" is made with [JSON Server](https://www.npmjs.com/package/json-server), and it stores data locally across sessions. 
 
@@ -21,7 +21,3 @@ npm start       #Start the app
 App Function
 - Add/remove tasks
 - Toggle reminder on tasks
-
-## Support
-
-Please [open an issue](https://github.com/jameszhang-a/task-tracker/issues/new) if you find any spaghetti :spaghetti:
