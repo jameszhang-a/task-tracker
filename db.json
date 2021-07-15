@@ -1,22 +1,22 @@
 {
-  "tasks": [
-    {
-      "id": 1,
-      "text": "Appointment",
-      "day": "01/02/2021",
-      "reminder": true
-    },
-    {
-      "text": "Tests",
-      "day": "Monday",
-      "reminder": true,
-      "id": 2
-    },
-    {
-      "text": "ad",
-      "day": "d",
-      "reminder": false,
-      "id": 3
-    }
-  ]
+	"tasks": [
+		{
+			"id": 1,
+			"text": "Appointment",
+			"day": "01/02/2021",
+			"reminder": true
+		},
+		{
+			"text": "Tests",
+			"day": "Monday",
+			"reminder": true,
+			"id": 2
+		},
+		{
+			"text": "ad",
+			"day": "d",
+			"reminder": false,
+			"id": 3
+		}
+	]
 }
